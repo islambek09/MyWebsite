@@ -8,3 +8,35 @@
     margin: 0;
     box-sizing: inherit;
 }
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f4f6;
+    color: #172554;
+}
+
+.site-header {
+    background: #172554;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.site-header h1 {
+    font-family: "Sixtyfour Convergence", sans-serif;
+    margin-bottom: 25px;
+}
+
+.site-header nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.site-header a {
+    color: white;
+    text-decoration: none;
+}
+
+.site-header a:hover {
+    color: #fbbf24;
+}
